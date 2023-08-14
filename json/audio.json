@@ -1,0 +1,15 @@
+[
+    {
+        "artist": "string",
+        "audioTitle": "string",
+        "coverImage": "string",
+        "description": "string",
+        "duration": "string",
+        "id": 0,
+        "mediaId": 0,
+        "mediaUrl": "string",
+        "next": 0,
+        "previous": 0,
+        "thumbnail": "string"
+      }
+]

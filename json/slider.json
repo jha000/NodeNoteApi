@@ -1,0 +1,52 @@
+[
+    {
+        "description": "string",
+        "id": 0,
+        "largeImageUrl": "string",
+        "media": {
+          "artist": [
+            {
+              "artistId": 0,
+              "artistName": "string",
+              "artistType": "string",
+              "artistTypeId": 0,
+              "id": 0
+            }
+          ],
+          "coverImage": "string",
+          "description": "string",
+          "id": 0,
+          "language": {
+            "coverImageUrl": "string",
+            "id": 0,
+            "status": true,
+            "title": "string"
+          },
+          "metaDescription": "string",
+          "metaImageUrl": "string",
+          "metaTitle": "string",
+          "preference": {
+            "coverImageUrl": "string",
+            "dateCreated": "2023-08-13T11:05:24.257Z",
+            "dateUpdated": "2023-08-13T11:05:24.257Z",
+            "displayHome": true,
+            "homeSortOrder": 0,
+            "id": 0,
+            "navigationSortOrder": 0,
+            "status": true,
+            "thumbnail": "string",
+            "title": "string"
+          },
+          "premium": true,
+          "status": "Draft",
+          "thumbnail": "string",
+          "title": "string",
+          "type": "Single"
+        },
+        "mediaId": 0,
+        "premium": true,
+        "smallImageUrl": "string",
+        "status": true,
+        "title": "string"
+      }
+]

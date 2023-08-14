@@ -1,0 +1,16 @@
+[
+    {
+      "artist": "string",
+      "audioTitle": "string",
+      "coverImage": "string",
+      "duration": 0,
+      "episodeDescription": "string",
+      "episodeNo": 0,
+      "id": 0,
+      "mediaId": 0,
+      "mediaUrl": "string",
+      "seasonId": 0,
+      "seasonNo": 0,
+      "thumbnail": "string"
+    }
+  ]

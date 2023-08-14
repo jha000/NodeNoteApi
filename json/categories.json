@@ -1,0 +1,12 @@
+[
+    {
+        "coverImageUrl": "string",
+        "displayHome": true,
+        "homeSortOrder": 0,
+        "id": 0,
+        "navigationSortOrder": 0,
+        "status": true,
+        "thumbnailUrl": "string",
+        "title": "string"
+    }
+]
