@@ -17,27 +17,27 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
 
-app.get('/nodenote/stories', (req, res) => {
+app.get('/stories', (req, res) => {
   res.send(storyData); 
 });
 
-app.get('/nodenote/audio', (req, res) => {
+app.get('/audio', (req, res) => {
   res.send(audioData);
 });
 
-app.get('/nodenote/categories', (req, res) => {
+app.get('/categories', (req, res) => {
   res.send(categoriesData); 
 });
 
-app.get('/nodenote/episodes', (req, res) => {
+app.get('/episodes', (req, res) => {
   res.send(episodesData); 
 });
 
-app.get('/nodenote/slider', (req, res) => {
+app.get('/slider', (req, res) => {
   res.send(sliderData); 
 });
 
-app.get('/nodenote/tokenplan', (req, res) => {
+app.get('/tokenplan', (req, res) => {
   res.send(tokenData); 
 });
 
