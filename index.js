@@ -103,7 +103,7 @@ app.get('/mediaData', (req, res) => {
   // Filter episodes with the specified seasonId
   const filteredEpisodes = mediaData.filter(episode => episode.id === parseInt(meadiaId));
 
-  res.json(filteredEpisodes);
+  res.send(filteredEpisodes);
 });
 
 

@@ -4,7 +4,7 @@
         "type": "Series",
         "title": "Murder in the lift",
         "description": "",
-        "coverImage": null,
+        "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
         "status": "Published",
         "language": {
@@ -24,8 +24,96 @@
         "preference": {
             "id": 1,
             "title": "Thriller",
-            "coverImageUrl": null,
+            "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
             "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+            "displayHome": true,
+            "homeSortOrder": 5,
+            "navigationSortOrder": 5,
+            "status": true
+        },
+        "artist": {
+            "id": 1,
+            "artistName": "Nello Originals",
+            "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
+        },
+        "premium": true,
+        "duration": "576",
+        "like": false,
+        "metaTitle": "",
+        "metaDescription": "",
+        "metaImageUrl": null
+    },
+    {
+        "id": 2,
+        "type": "Series",
+        "title": "Real Paranormal",
+        "description": "",
+        "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+        "status": "Published",
+        "language": {
+            "id": 2,
+            "title": "English",
+            "status": true,
+            "coverImageUrl": null
+        },
+        "channel": {
+            "id": 1,
+            "channelTitle": "Nello",
+            "channelDescription": "",
+            "coverImage": null,
+            "thumbnail": null,
+            "active": false
+        },
+        "preference": {
+            "id": 1,
+            "title": "Horrer",
+            "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+            "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+            "displayHome": true,
+            "homeSortOrder": 5,
+            "navigationSortOrder": 5,
+            "status": true
+        },
+        "artist": {
+            "id": 1,
+            "artistName": "Nello Originals",
+            "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
+        },
+        "premium": true,
+        "duration": "576",
+        "like": false,
+        "metaTitle": "",
+        "metaDescription": "",
+        "metaImageUrl": null
+    },
+    {
+        "id": 3,
+        "type": "Series",
+        "title": "The Copy Killer",
+        "description": "",
+        "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+        "status": "Published",
+        "language": {
+            "id": 2,
+            "title": "English",
+            "status": true,
+            "coverImageUrl": null
+        },
+        "channel": {
+            "id": 1,
+            "channelTitle": "Nello",
+            "channelDescription": "",
+            "coverImage": null,
+            "thumbnail": null,
+            "active": false
+        },
+        "preference": {
+            "id": 1,
+            "title": "Thriller",
+            "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+            "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
             "displayHome": true,
             "homeSortOrder": 5,
             "navigationSortOrder": 5,

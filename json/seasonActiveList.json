@@ -16,5 +16,14 @@
         "seasonDescription": "Real Paranormal",
         "thumbnail": null,
         "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc"
+    },
+    {
+        "id": 3,
+        "media": null,
+        "seasonNo": 1,
+        "seasonTitle": "The Copy Killer",
+        "seasonDescription": "The Copy Killer",
+        "thumbnail": null,
+        "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0"
     }
 ]
