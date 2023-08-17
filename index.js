@@ -13,6 +13,7 @@ const categoriesData = require('./json/categories.json');
 const episodesData = require('./json/episodes.json');
 const sliderData = require('./json/slider.json');
 const activeData = require('./json/seasonActiveList.json');
+const mediaData = require('./json/getMedia.json');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
@@ -96,6 +97,14 @@ app.get('/seasonActiveList', (req, res) => {
   res.json(filteredEpisodes);
 });
 
+app.get('/mediaData', (req, res) => {
+  const meadiaId = req.query.id; // Get the seasonId parameter from the request query
+
+  // Filter episodes with the specified seasonId
+  const filteredEpisodes = mediaData.filter(episode => episode.id === parseInt(meadiaId));
+
+  res.json(filteredEpisodes);
+});
 
 
 app.listen(PORT, () => {
