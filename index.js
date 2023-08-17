@@ -12,7 +12,7 @@ const seriesData = require('./json/series.json');
 const categoriesData = require('./json/categories.json');
 const episodesData = require('./json/episodes.json');
 const sliderData = require('./json/slider.json');
-const tokenData = require('./json/tokenplan.json');
+const activeData = require('./json/seasonActiveList.json');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
@@ -76,14 +76,6 @@ app.get('/episodes', (req, res) => {
   res.json(filteredEpisodes); // Send the filtered episodes as JSON response
 });
 
-app.post('/episodes', (req, res) => {
-  const newEpisodes = req.body;
-  if (!newEpisodes.mediaUrl || !newEpisodes.audioTitle) {
-    return res.status(400).json({ error: 'Missing required fields' });
-  }
-  episodesData.push(newEpisodes);
-  res.status(201).json({ message: 'Episodes created', data: newEpisodes });
-});
 
 app.get('/slider', (req, res) => {
   res.send(sliderData);
@@ -95,15 +87,15 @@ app.post('/slider', (req, res) => {
   res.status(201).json({ message: 'Slider created', data: newSlider });
 });
 
-app.get('/tokenplan', (req, res) => {
-  res.send(tokenData);
+app.get('/seasonActiveList', (req, res) => {
+  const meadiaId = req.query.id; // Get the seasonId parameter from the request query
+
+  // Filter episodes with the specified seasonId
+  const filteredEpisodes = activeData.filter(episode => episode.id === parseInt(meadiaId));
+
+  res.json(filteredEpisodes);
 });
 
-app.post('/tokenplan', (req, res) => {
-  const newToken = req.body;
-  tokenData.push(newToken);
-  res.status(201).json({ message: 'Token created', data: newToken });
-});
 
 
 app.listen(PORT, () => {
