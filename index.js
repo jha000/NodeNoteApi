@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 const storyData = require('./json/stories.json');
-const audioData = require('./json/audio.json');
+const seriesData = require('./json/series.json');
 const categoriesData = require('./json/categories.json');
 const episodesData = require('./json/episodes.json');
 const sliderData = require('./json/slider.json');
@@ -40,8 +40,8 @@ app.post('/stories', (req, res) => {
 });
 
 
-app.get('/audio', (req, res) => {
-  res.send(audioData);
+app.get('/series', (req, res) => {
+  res.send(seriesData);
 });
 
 app.post('/audio', (req, res) => {
@@ -49,7 +49,7 @@ app.post('/audio', (req, res) => {
   if (!newAudio.mediaUrl || !newAudio.audioTitle) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
-  audioData.push(newAudio);
+  seriesData.push(newAudio);
   res.status(201).json({ message: 'Audio created', data: newAudio });
 });
 
