@@ -2,7 +2,7 @@
   {
       "id": 1,
       "mediaId": null,
-      "seasonId": 1,
+      "seasonId": null,
       "seasonNo": null,
       "episodeNo": 1,
       "audioTitle": "Panchtantra  Introduction",
@@ -16,7 +16,7 @@
   {
       "id": 2,
       "mediaId": null,
-      "seasonId": 1,
+      "seasonId": null,
       "seasonNo": null,
       "episodeNo": 2,
       "audioTitle": "The Monkey and the Wedge",
