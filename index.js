@@ -68,13 +68,13 @@ app.post('/categories', (req, res) => {
 });
 
 app.get('/episodes', (req, res) => {
-  const seasonId = req.query.seasonId; // Get the value of the seasonId query parameter
-  // Use the seasonId to filter and retrieve episodesData as needed
-  
-  // Respond with filtered data or appropriate response
-  res.send(episodesData);
-});
+  const seasonId = req.query.seasonId; // Get the seasonId parameter from the request query
 
+  // Filter episodes with the specified seasonId
+  const filteredEpisodes = episodesData.filter(episode => episode.seasonId === parseInt(seasonId));
+
+  res.json(filteredEpisodes); // Send the filtered episodes as JSON response
+});
 
 app.post('/episodes', (req, res) => {
   const newEpisodes = req.body;
