@@ -2,7 +2,7 @@
     {
         "description": "string",
         "id": 0,
-        "largeImageUrl": "string",
+        "largemetaImageUrl": "string",
         "media": {
           "artist": [
             {
@@ -17,16 +17,16 @@
           "description": "string",
           "id": 0,
           "language": {
-            "coverImageUrl": "string",
+            "covermetaImageUrl": "string",
             "id": 0,
             "status": true,
             "title": "string"
           },
           "metaDescription": "string",
-          "metaImageUrl": "string",
+          "metametaImageUrl": "string",
           "metaTitle": "string",
           "preference": {
-            "coverImageUrl": "string",
+            "covermetaImageUrl": "string",
             "dateCreated": "2023-08-13T11:05:24.257Z",
             "dateUpdated": "2023-08-13T11:05:24.257Z",
             "displayHome": true,
@@ -45,7 +45,7 @@
         },
         "mediaId": 0,
         "premium": true,
-        "smallImageUrl": "string",
+        "smallmetaImageUrl": "string",
         "status": true,
         "title": "string"
       }

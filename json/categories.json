@@ -1,12 +1,63 @@
 [
-    {
-        "coverImageUrl": "string",
-        "displayHome": true,
-        "homeSortOrder": 0,
-        "id": 0,
-        "navigationSortOrder": 0,
-        "status": true,
-        "thumbnailUrl": "string",
-        "title": "string"
-    }
+  {
+    "id": 1,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 1,
+    "navigationSortOrder": 1,
+    "status": true,
+    "title": "Horror"
+  },
+  {
+    "id": 2,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 2,
+    "navigationSortOrder": 2,
+    "status": true,
+    "title": "Sci-Fi"
+  },
+  {
+    "id": 3,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 3,
+    "navigationSortOrder": 3,
+    "status": true,
+    "title": "Thriller"
+  }
+  ,
+  {
+    "id": 4,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 4,
+    "navigationSortOrder": 4,
+    "status": true,
+    "title": "Drama"
+  },
+  {
+    "id": 5,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 5,
+    "navigationSortOrder": 5,
+    "status": true,
+    "title": "Romance"
+  },
+  {
+    "id": 6,
+    "covermetaImageUrl": "string",
+    "thumbnailUrl": "string",
+    "displayHome": true,
+    "homeSortOrder": 6,
+    "navigationSortOrder": 6,
+    "status": true,
+    "title": "Stories"
+  }
 ]
