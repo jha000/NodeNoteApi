@@ -2,7 +2,7 @@
   {
       "id": 1,
       "mediaId": null,
-      "seasonId": null,
+      "seasonId": 1,
       "seasonNo": null,
       "episodeNo": 1,
       "audioTitle": "Panchtantra  Introduction",
