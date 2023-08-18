@@ -7,7 +7,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-const storyData = require('./json/stories.json');
+const listData = require('./json/mediaList.json');
 const seriesData = require('./json/series.json');
 const categoriesData = require('./json/categories.json');
 const episodesData = require('./json/episodes.json');
@@ -19,14 +19,14 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
 
-app.get('/stories', (req, res) => {
+app.get('/mediaList', (req, res) => {
   const { preference } = req.query;
 
   if (preference) {
-    const categoryStories = storyData.filter(story => story.preference === preference);
+    const categoryStories = listData.filter(story => story.preference === preference);
     res.json(categoryStories);
   } else {
-    res.json(storyData);
+    res.json(listData);
   }
 });
 
@@ -36,7 +36,7 @@ app.post('/stories', (req, res) => {
   if (!newStory.mediaTitle || !newStory.mediaDescription) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
-  storyData.push(newStory);
+  listData.push(newStory);
   res.status(201).json({ message: 'Story created', data: newStory });
 });
 
