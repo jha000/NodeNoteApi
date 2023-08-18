@@ -14,6 +14,7 @@ const episodesData = require('./json/episodes.json');
 const sliderData = require('./json/slider.json');
 const activeData = require('./json/seasonActiveList.json');
 const mediaData = require('./json/getMedia.json');
+const musicSeriesData = require('./json/musicSeries.json');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
@@ -27,6 +28,19 @@ app.get('/mediaList', (req, res) => {
     res.json(categoryStories);
   } else {
     res.json(listData);
+  }
+});
+
+app.get('/musicSeries', (req, res) => {
+  const { audioTitle, id } = req.query;
+
+  // Find the data object that matches the given audioTitle and id
+  const matchedData = musicSeriesData.find(item => item.audioTitle === audioTitle && item.id === parseInt(id));
+
+  if (matchedData) {
+    res.json(matchedData);
+  } else {
+    res.status(404).json({ error: "Data not found" });
   }
 });
 

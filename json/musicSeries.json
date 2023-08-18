@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "previous": null,
+        "next": 2,
+        "mediaId": null,
+        "audioTitle": "Murder in the lift",
+        "description": "Murder in the lift",
+        "coverImage": null,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2001.mp3?alt=media&token=c89307a4-5250-4578-872a-0a2b4bfb4dcc",
+        "artist": "Nello Originals",
+        "duration": "114"
+    },
+    {
+        "id": 2,
+        "previous": 1,
+        "next": 3,
+        "mediaId": null,
+        "audioTitle": "Murder in the lift",
+        "description": "Murder in the lift",
+        "coverImage": null,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2002.mp3?alt=media&token=69baeaf7-5bcc-415c-bad7-1e7115aa8589",
+        "artist": "Nello Originals",
+        "duration": "114"
+    },
+    {
+        "id": 3,
+        "previous": 2,
+        "next": 4,
+        "mediaId": null,
+        "audioTitle": "Murder in the lift",
+        "description": "Murder in the lift",
+        "coverImage": null,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2003.mp3?alt=media&token=9bcfb4b4-ad0f-4f15-847e-8e23e73f31ce",
+        "artist": "Nello Originals",
+        "duration": "114"
+    },
+    {
+        "id": 4,
+        "previous": 3,
+        "next": 5,
+        "mediaId": null,
+        "audioTitle": "Murder in the lift",
+        "description": "Murder in the lift",
+        "coverImage": null,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2004.mp3?alt=media&token=69fd7ebe-0ef6-42dc-9091-e0ba2d84b830",
+        "artist": "Nello Originals",
+        "duration": "114"
+    },
+    {
+        "id": 5,
+        "previous": 4,
+        "next": null,
+        "mediaId": null,
+        "audioTitle": "Murder in the lift",
+        "description": "Murder in the lift",
+        "coverImage": null,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2005.mp3?alt=media&token=8d5bcdfa-875b-4902-a926-b748a0f4140a",
+        "artist": "Nello Originals",
+        "duration": "114"
+    }
+]
