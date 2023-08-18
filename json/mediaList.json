@@ -100,7 +100,7 @@
         "premium": false,
         "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
         "like": false,
-        "type": "Series",
+        "type": "Single",
         "metaTitle": null,
         "metaDescription": null,
         "metaImageUrl": null
@@ -116,7 +116,7 @@
         "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
         "artist": "Nello Originals",
         "like": false,
-        "type": "Series",
+        "type": "Single",
         "metaTitle": null,
         "metaDescription": null,
         "metaImageUrl": null
@@ -139,7 +139,7 @@
         "premium": false,
         "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
         "like": false,
-        "type": "Series",
+        "type": "Single",
         "metaTitle": null,
         "metaDescription": null,
         "metaImageUrl": null
