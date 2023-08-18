@@ -39,8 +39,8 @@
         "premium": true,
         "duration": "576",
         "like": false,
-        "metaTitle": "",
-        "metaDescription": "",
+        "metaTitle": null,
+        "metaDescription": null,
         "metaImageUrl": null
     },
     {
@@ -83,8 +83,8 @@
         "premium": true,
         "duration": "576",
         "like": false,
-        "metaTitle": "",
-        "metaDescription": "",
+        "metaTitle": null,
+        "metaDescription": null,
         "metaImageUrl": null
     },
     {
@@ -127,8 +127,8 @@
         "premium": true,
         "duration": "576",
         "like": false,
-        "metaTitle": "",
-        "metaDescription": "",
+        "metaTitle": null,
+        "metaDescription": null,
         "metaImageUrl": null
     }
 ]
