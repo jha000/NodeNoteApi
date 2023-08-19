@@ -93,10 +93,10 @@ app.get('/episodes', (req, res) => {
 });
 
 app.get('/musicSingle', (req, res) => {
-  const id = req.query.id; 
-  const filteredData = musicSingleData.filter(episode => episode.id === parseInt(id));
+  const id = parseInt(req.query.id);
+  const result = musicSingleData.find(item => item.id === id);
 
-  res.json(filteredData); // Send the filtered episodes as JSON response
+  res.json(result);
 });
 
 
