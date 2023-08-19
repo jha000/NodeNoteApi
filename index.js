@@ -32,6 +32,17 @@ app.get('/mediaList', (req, res) => {
   }
 });
 
+app.get('/media/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const mediaCategory = listData.find(category => category.id === id);
+
+  if (!mediaCategory) {
+    return res.status(404).json({ error: 'Category not found' });
+  }
+
+  res.json(mediaCategory.media);
+});
+
 app.get('/musicSeries', (req, res) => {
   const { audioTitle, id } = req.query;
 
