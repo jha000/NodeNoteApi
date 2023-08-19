@@ -65,9 +65,9 @@
         "duration": "114"
     },
     {
-        "id": 1,
+        "id": 6,
         "previous": null,
-        "next": 2,
+        "next": 7,
         "mediaId": null,
         "audioTitle": "Real Paranormal EP 01",
         "description": "Real Paranormal",
@@ -78,11 +78,11 @@
         "duration": "114"
     },
     {
-        "id": 2,
-        "previous": 1,
-        "next": 3,
+        "id": 7,
+        "previous": 6,
+        "next": 8,
         "mediaId": null,
-        "audioTitle": "Real Paranormalt EP 02",
+        "audioTitle": "Real Paranormal EP 02",
         "description": "Real Paranormal",
         "coverImage": null,
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
@@ -91,9 +91,9 @@
         "duration": "114"
     },
     {
-        "id": 3,
-        "previous": 2,
-        "next": 4,
+        "id": 8,
+        "previous": 7,
+        "next": 9,
         "mediaId": null,
         "audioTitle": "Real Paranormal EP 03",
         "description": "Real Paranormal",
@@ -104,9 +104,9 @@
         "duration": "114"
     },
     {
-        "id": 4,
-        "previous": 3,
-        "next": 5,
+        "id": 9,
+        "previous": 8,
+        "next": null,
         "mediaId": null,
         "audioTitle": "Real Paranormal EP 04",
         "description": "Real Paranormal",
@@ -117,9 +117,9 @@
         "duration": "114"
     },
     {
-        "id": 1,
+        "id": 10,
         "previous": null,
-        "next": 2,
+        "next": 11,
         "mediaId": null,
         "audioTitle": "The Copy Killer EP 01",
         "description": "The Copy Killer",
@@ -130,9 +130,9 @@
         "duration": "114"
     },
     {
-        "id": 2,
-        "previous": 1,
-        "next": 3,
+        "id": 11,
+        "previous": 10,
+        "next": 12,
         "mediaId": null,
         "audioTitle": "The Copy Killer EP 02",
         "description": "The Copy Killer",
@@ -143,9 +143,9 @@
         "duration": "114"
     },
     {
-        "id": 3,
-        "previous": 2,
-        "next": 4,
+        "id": 12,
+        "previous": 11,
+        "next": 13,
         "mediaId": null,
         "audioTitle": "The Copy Killer EP 03",
         "description": "The Copy Killer",
@@ -156,9 +156,9 @@
         "duration": "114"
     },
     {
-        "id": 4,
-        "previous": 3,
-        "next": 5,
+        "id": 13,
+        "previous": 12,
+        "next": 14,
         "mediaId": null,
         "audioTitle": "The Copy Killer EP 04",
         "description": "The Copy Killer",
@@ -169,8 +169,8 @@
         "duration": "114"
     },
     {
-        "id": 5,
-        "previous": 4,
+        "id": 14,
+        "previous": 13,
         "next": null,
         "mediaId": null,
         "audioTitle": "The Copy Killer EP 05",
@@ -182,9 +182,9 @@
         "duration": "114"
     },
     {
-        "id": 1,
+        "id": 15,
         "previous": null,
-        "next": 2,
+        "next": 16,
         "mediaId": null,
         "audioTitle": "Game of Cure EP 01",
         "description": "Game of Cure",
@@ -195,9 +195,9 @@
         "duration": "114"
     },
     {
-        "id": 2,
-        "previous": 1,
-        "next": 3,
+        "id": 16,
+        "previous": 15,
+        "next": 17,
         "mediaId": null,
         "audioTitle": "Game of Cure EP 02",
         "description": "Game of Cure",
@@ -208,9 +208,9 @@
         "duration": "114"
     },
     {
-        "id": 3,
-        "previous": 2,
-        "next": 4,
+        "id": 17,
+        "previous": 16,
+        "next": null,
         "mediaId": null,
         "audioTitle": "Game of Cure EP 03",
         "description": "Game of Cure",
