@@ -1,63 +1,32 @@
 [
   {
     "id": 1,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
+    "coverImageUrl": null,
+    "thumbnailUrl": "https://i0.wp.com/www.jumbojetje.nl/tutorials/wp-content/uploads/2009/07/horror-tekstkopie.jpg",
     "displayHome": true,
-    "homeSortOrder": 1,
-    "navigationSortOrder": 1,
+    "homeSortOrder": 0,
+    "navigationSortOrder": 0,
     "status": true,
     "title": "Horror"
   },
   {
-    "id": 2,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
+    "id": 27,
+    "coverImageUrl": null,
+    "thumbnailUrl": "https://cdn4.vectorstock.com/i/1000x1000/99/58/scary-lettering-thriller-on-a-black-background-vector-34309958.jpg",
+    "displayHome": true,
+    "homeSortOrder": 1,
+    "navigationSortOrder": 1,
+    "status": true,
+    "title": "Thriller"
+  },
+  {
+    "id": 26,
+    "title": "Stories",
+    "coverImageUrl": null,
+    "thumbnailUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/preferences/250x250-stories.jpg",
     "displayHome": true,
     "homeSortOrder": 2,
     "navigationSortOrder": 2,
-    "status": true,
-    "title": "Sci-Fi"
-  },
-  {
-    "id": 3,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
-    "displayHome": true,
-    "homeSortOrder": 3,
-    "navigationSortOrder": 3,
-    "status": true,
-    "title": "Thriller"
-  }
-  ,
-  {
-    "id": 4,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
-    "displayHome": true,
-    "homeSortOrder": 4,
-    "navigationSortOrder": 4,
-    "status": true,
-    "title": "Drama"
-  },
-  {
-    "id": 5,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
-    "displayHome": true,
-    "homeSortOrder": 5,
-    "navigationSortOrder": 5,
-    "status": true,
-    "title": "Romance"
-  },
-  {
-    "id": 6,
-    "covermetaImageUrl": "string",
-    "thumbnailUrl": "string",
-    "displayHome": true,
-    "homeSortOrder": 6,
-    "navigationSortOrder": 6,
-    "status": true,
-    "title": "Stories"
+    "status": true
   }
 ]
