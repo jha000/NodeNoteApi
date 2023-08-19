@@ -112,7 +112,7 @@
         "mediaId": null,
         "coverImage": null,
         "duration": "168",
-        "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
+        "mediaUrl": "null",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
         "artist": "Nello Originals"
     }
