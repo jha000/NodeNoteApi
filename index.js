@@ -114,13 +114,20 @@ app.get('/seasonActiveList', (req, res) => {
 
 
 app.get('/musicSingle', (req, res) => {
-  const musicId = req.query.id; // Get the seasonId parameter from the request query
+  const musicId = req.query.id; // Get the musicId parameter from the request query
 
-  // Filter episodes with the specified seasonId
+  // Filter episodes with the specified musicId
   const filteredEpisodes = musicSingleData.filter(episode => episode.id === parseInt(musicId));
 
-  res.json(filteredEpisodes);
+  if (filteredEpisodes.length === 1) {
+    // If only one episode matches the musicId, send that single episode
+    res.json(filteredEpisodes[0]);
+  } else {
+    // If multiple episodes match the musicId or none match, send the filtered array
+    res.json(filteredEpisodes);
+  }
 });
+
 
 app.get('/mediaData', (req, res) => {
   const meadiaId = req.query.id; // Get the seasonId parameter from the request query
