@@ -15,6 +15,7 @@ const sliderData = require('./json/slider.json');
 const activeData = require('./json/seasonActiveList.json');
 const mediaData = require('./json/getMedia.json');
 const musicSeriesData = require('./json/musicSeries.json');
+const musicSingleData = require('./json/musicSingle.json');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
@@ -47,7 +48,7 @@ app.get('/musicSeries', (req, res) => {
 
 app.post('/stories', (req, res) => {
   const newStory = req.body;
-  if (!newStory.mediaTitle || !newStory.mediaDescription) {
+  if (!newStory.audioTitle || !newStory.description) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
   listData.push(newStory);
@@ -89,6 +90,13 @@ app.get('/episodes', (req, res) => {
   const filteredEpisodes = episodesData.filter(episode => episode.seasonId === parseInt(seasonId));
 
   res.json(filteredEpisodes); // Send the filtered episodes as JSON response
+});
+
+app.get('/musicSingle', (req, res) => {
+  const id = req.query.id; 
+  const filteredData = musicSingleData.filter(episode => episode.id === parseInt(id));
+
+  res.json(filteredData); // Send the filtered episodes as JSON response
 });
 
 

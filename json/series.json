@@ -5,13 +5,13 @@
     "id": 1,
     "language": "English",
     "like": false,
-    "mediaDescription": "Murder in the lift",
-    "mediaTitle": "Murder in the lift",
+    "description": "Murder in the lift",
+    "audioTitle": "Murder in the lift",
     "metaDescription": "",
     "metaImageUrl": "null",
     "metaTitle": "",
     "prefernece": "Horror",
-    "premium": false,
+    
     "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
     "type": "Story"
   },
@@ -21,13 +21,13 @@
     "id": 2,
     "language": "English",
     "like": false,
-    "mediaDescription": "Real Paranormal",
-    "mediaTitle": "Real Paranormal",
+    "description": "Real Paranormal",
+    "audioTitle": "Real Paranormal",
     "metaDescription": "",
     "metaImageUrl": "null",
     "metaTitle": "",
     "prefernece": "Horror",
-    "premium": false,
+    
     "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
     "type": "Series"
   },
@@ -37,13 +37,13 @@
     "id": 3,
     "language": "English",
     "like": false,
-    "mediaDescription": "The Copy Killer",
-    "mediaTitle": "The Copy Killer",
+    "description": "The Copy Killer",
+    "audioTitle": "The Copy Killer",
     "metaDescription": "",
     "metaImageUrl": "null",
     "metaTitle": "",
     "prefernece": "Horror",
-    "premium": false,
+    
     "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
     "type": "Series"
   }
