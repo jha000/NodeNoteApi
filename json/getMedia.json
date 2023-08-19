@@ -130,5 +130,49 @@
         "metaTitle": null,
         "metaDescription": null,
         "metaImageUrl": null
+    },
+    {
+        "id": 4,
+        "type": "Series",
+        "title": "Game of Cure",
+        "description": "",
+        "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+        "status": "Published",
+        "language": {
+            "id": 2,
+            "title": "English",
+            "status": true,
+            "coverImageUrl": null
+        },
+        "channel": {
+            "id": 1,
+            "channelTitle": "Nello",
+            "channelDescription": "",
+            "coverImage": null,
+            "thumbnail": null,
+            "active": false
+        },
+        "preference": {
+            "id": 1,
+            "title": "Thriller",
+            "coverImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+            "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+            "displayHome": true,
+            "homeSortOrder": 5,
+            "navigationSortOrder": 5,
+            "status": true
+        },
+        "artist": {
+            "id": 1,
+            "artistName": "Nello Originals",
+            "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
+        },
+        "premium": true,
+        "duration": "576",
+        "like": false,
+        "metaTitle": null,
+        "metaDescription": null,
+        "metaImageUrl": null
     }
 ]

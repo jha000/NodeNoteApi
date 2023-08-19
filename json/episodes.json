@@ -194,5 +194,47 @@
     "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FThe%20Copy%20Killer%2FThe%20Copy%20Killer%20EP%2005.mp3?alt=media&token=bc75d2cd-0c23-4ce4-986d-ab4165cc6eef",
     "artist": null,
     "duration": 324
+  },
+  {
+    "id": 15,
+    "mediaId": null,
+    "seasonId": 4,
+    "seasonNo": null,
+    "episodeNo": 1,
+    "audioTitle": "Game of Cure EP 01",
+    "episodeDescription": "Game of Cure EP 01",
+    "coverImage": null,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+    "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FGame%20of%20Cure-Exit%2FGame%20of%20Cure%20Ep%2001.mp3?alt=media&token=7e7c2353-d490-4a16-80ad-398ae8c56b08",
+    "artist": null,
+    "duration": 172
+  },
+  {
+    "id": 16,
+    "mediaId": null,
+    "seasonId": 4,
+    "seasonNo": null,
+    "episodeNo": 2,
+    "audioTitle": "Game of Cure EP 02",
+    "episodeDescription": "Game of Cure EP 02",
+    "coverImage": null,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+    "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FGame%20of%20Cure-Exit%2FGame%20of%20Cure%20Ep%2002.mp3?alt=media&token=ce505615-a733-4122-8970-95688ad1a0d3",
+    "artist": null,
+    "duration": 114
+  },
+  {
+    "id": 17,
+    "mediaId": null,
+    "seasonId": 4,
+    "seasonNo": null,
+    "episodeNo": 3,
+    "audioTitle": "Game of Cure EP 03",
+    "episodeDescription": "Game of Cure EP 03",
+    "coverImage": null,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+    "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FGame%20of%20Cure-Exit%2FGame%20of%20Cure%20Ep%2003.mp3?alt=media&token=8bc60f77-9968-4d41-9fc6-7345c8e46aaf",
+    "artist": null,
+    "duration": 109
   }
 ]

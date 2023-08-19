@@ -46,5 +46,21 @@
     "premium": false,
     "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
     "type": "Series"
+  },
+  {
+    "artist": "Nello Originals",
+    "duration": "",
+    "id": 4,
+    "language": "English",
+    "like": false,
+    "mediaDescription": "Game of Cure",
+    "mediaTitle": "Game of Cure",
+    "metaDescription": "",
+    "metaImageUrl": "null",
+    "metaTitle": "",
+    "prefernece": "Horror",
+    "premium": false,
+    "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+    "type": "Series"
   }
 ]
