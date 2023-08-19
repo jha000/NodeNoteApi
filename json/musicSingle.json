@@ -1,6 +1,6 @@
 [
     {
-        "id": 88,
+        "id": 76,
         "previous": null,
         "next": 45,
         "audioTitle": "Lockdown",
@@ -10,7 +10,7 @@
         "mediaId": null,
         "coverImage": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1"
     },
     {
         "id": 45,
@@ -23,7 +23,7 @@
         "mediaId": null,
         "artist": "Nello Originals",
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FFirst%20%20Love.png?alt=media&token=1c15a411-75ff-4b23-967c-87d6f63ca17b"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FFirst%20%20Love.png?alt=media&token=1c15a411-75ff-4b23-967c-87d6f63ca17b"
     },
     {
         "id": 44,
@@ -36,7 +36,7 @@
         "coverImage": null,
         "artist": "Nello Originals",
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FTrapped%20in%20Tizanga.png?alt=media&token=e8f71741-5ae0-429f-a0c6-ece7ee207f64"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FTrapped%20in%20Tizanga.png?alt=media&token=e8f71741-5ae0-429f-a0c6-ece7ee207f64"
     },
     {
         "id": 40,
@@ -48,7 +48,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fneuralink.png?alt=media&token=a1576ce5-dd73-4167-9701-e6cf8881169c",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fneuralink.png?alt=media&token=a1576ce5-dd73-4167-9701-e6cf8881169c",
         "artist": "Nello Originals"
     },
     {
@@ -61,7 +61,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
         "artist": "Nello Originals"
     },
     {
@@ -74,7 +74,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
         "artist": "Nello Originals"
     },
     {
@@ -87,7 +87,7 @@
         "duration": "168",
         "coverImage": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
         "artist": "Nello Originals"
     },
     {
@@ -100,7 +100,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
         "artist": "Nello Originals"
     },
     {
@@ -113,7 +113,7 @@
         "coverImage": null,
         "duration": "168",
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
         "artist": "Nello Originals"
     }
 ]
