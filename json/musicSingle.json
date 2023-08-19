@@ -2,15 +2,15 @@
     {
         "id": 76,
         "previous": null,
-        "next": 45,
-        "audioTitle": "Lockdown",
-        "description": "",
-        "duration": "118",
-        "artist": "Nello Originals",
+        "next": 70,
         "mediaId": null,
+        "audioTitle": "चाय से सिख ",
+        "description": null,
         "coverImage": null,
+        "thumbnail": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/thumbnail/chai-se-seekh.jpg",
         "mediaUrl": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/media/76/Chai-ki-sikha.mp3",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1"
+        "artist": "Nello Originals",
+        "duration": "118"
     },
     {
         "id": 45,
