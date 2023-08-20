@@ -1,32 +1,32 @@
 [
     {
-        "description": "string",
+        "description": "test",
         "id": 0,
-        "largemetaImageUrl": "string",
+        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1",
         "media": {
           "artist": [
             {
               "artistId": 0,
-              "artistName": "string",
+              "artistName": "Nello Originals",
               "artistType": "string",
               "artistTypeId": 0,
               "id": 0
             }
           ],
-          "coverImage": "string",
+          "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1",
           "description": "string",
           "id": 0,
           "language": {
-            "covermetaImageUrl": "string",
+            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1",
             "id": 0,
             "status": true,
             "title": "string"
           },
           "metaDescription": "string",
-          "metametaImageUrl": "string",
+          "metametaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1",
           "metaTitle": "string",
           "preference": {
-            "covermetaImageUrl": "string",
+            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1",
             "dateCreated": "2023-08-13T11:05:24.257Z",
             "dateUpdated": "2023-08-13T11:05:24.257Z",
             "displayHome": true,
@@ -47,6 +47,6 @@
         "premium": true,
         "smallmetaImageUrl": "string",
         "status": true,
-        "title": "string"
+        "title": "nodenote"
       }
 ]

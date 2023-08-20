@@ -18,6 +18,7 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
+
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
@@ -99,6 +100,10 @@ app.post('/stories', (req, res) => {
 
 app.get('/series', (req, res) => {
   res.send(seriesData);
+});
+
+app.get('/slider', (req, res) => {
+  res.send(sliderData);
 });
 
 app.post('/audio', (req, res) => {
