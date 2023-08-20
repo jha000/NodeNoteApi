@@ -16,9 +16,16 @@ const activeData = require('./json/seasonActiveList.json');
 const mediaData = require('./json/getMedia.json');
 const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
+const recentData = require('./json/recent.json');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
+});
+
+app.get('/recent', (req, res) => {
+  const customToken = req.headers['x-custom-token'];
+    res.setHeader('Content-Type', 'application/json');
+    res.status(200).json(recentData);
 });
 
 app.get('/mediaList', (req, res) => {
@@ -31,6 +38,29 @@ app.get('/mediaList', (req, res) => {
     res.json(listData);
   }
 });
+
+app.get('/search', (req, res) => {
+  const query = req.query.q;
+
+  if (query) {
+    const filteredMedia = listData.reduce((acc, category) => {
+      const filteredCategoryMedia = category.media.filter(item =>
+        item.mediaTitle.toLowerCase().includes(query.toLowerCase())
+      );
+      if (filteredCategoryMedia.length > 0) {
+        acc.push(...filteredCategoryMedia);
+      }
+      return acc;
+    }, []);
+
+    res.json(filteredMedia);
+  } else {
+    const mediaData = data.map(category => category.media);
+    const allMedia = [].concat(...mediaData);
+    res.json(allMedia);
+  }
+});
+
 
 app.get('/media/:id', (req, res) => {
   const id = parseInt(req.params.id);
