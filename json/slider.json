@@ -98,6 +98,56 @@
         "smallmetaImageUrl": null,
         "status": true,
         "title": "Zombai"
+      },
+      {
+        "description": "",
+        "id": 2,
+        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fneuralink.png?alt=media&token=a1576ce5-dd73-4167-9701-e6cf8881169c",
+        "media": {
+          "artist": [
+            {
+              "artistId": 0,
+              "artistName": "Nello Originals",
+              "artistType": null,
+              "artistTypeId": 0,
+              "id": 0
+            }
+          ],
+          "coverImage": null,
+          "description": null,
+          "id": 2,
+          "language": {
+            "covermetaImageUrl": null,
+            "id": 0,
+            "status": true,
+            "title": "string"
+          },
+          "metaDescription": "string",
+          "metametaImageUrl": null,
+          "metaTitle": "string",
+          "preference": {
+            "covermetaImageUrl": null,
+            "dateCreated": "2023-08-13T11:05:24.257Z",
+            "dateUpdated": "2023-08-13T11:05:24.257Z",
+            "displayHome": true,
+            "homeSortOrder": 2,
+            "id": 2,
+            "navigationSortOrder": 2,
+            "status": true,
+            "thumbnail": "string",
+            "title": "string"
+          },
+          "premium": false,
+          "status": "Draft",
+          "thumbnail": "string",
+          "title": "string",
+          "type": "Single"
+        },
+        "mediaId": 40,
+        "premium": false,
+        "smallmetaImageUrl": null,
+        "status": true,
+        "title": "Neuralink"
       }
       
 ]
