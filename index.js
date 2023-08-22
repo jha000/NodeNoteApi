@@ -24,8 +24,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/recent', (req, res) => {
-  const customToken = req.headers['x-custom-token'];
-    res.setHeader('Content-Type', 'application/json');
+  const userToken = req.query.token;
+    // Your token verification logic using userToken...
+    
+    // Fetch and return the recently played media data from your database or source
+    // Your logic to fetch recent media data...
+
+    // Send the fetched data as a response
     res.status(200).json(recentData);
 });
 
