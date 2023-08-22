@@ -52,7 +52,7 @@
       {
         "description": "",
         "id": 1,
-        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
         "media": {
           "artist": [
             {
@@ -63,20 +63,20 @@
               "id": 0
             }
           ],
-          "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+          "coverImage": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
           "description": null,
           "id": 1,
           "language": {
-            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
             "id": 0,
             "status": true,
             "title": "string"
           },
           "metaDescription": "string",
-          "metametaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+          "metametaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
           "metaTitle": "string",
           "preference": {
-            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+            "covermetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
             "dateCreated": "2023-08-13T11:05:24.257Z",
             "dateUpdated": "2023-08-13T11:05:24.257Z",
             "displayHome": true,
@@ -91,18 +91,18 @@
           "status": "Draft",
           "thumbnail": "string",
           "title": "string",
-          "type": "Single"
+          "type": "Series"
         },
-        "mediaId": 82,
+        "mediaId": 1,
         "premium": false,
         "smallmetaImageUrl": null,
         "status": true,
-        "title": "Zombai"
+        "title": "Murder in the Lift"
       },
       {
         "description": "",
         "id": 2,
-        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fneuralink.png?alt=media&token=a1576ce5-dd73-4167-9701-e6cf8881169c",
+        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
         "media": {
           "artist": [
             {
@@ -141,13 +141,63 @@
           "status": "Draft",
           "thumbnail": "string",
           "title": "string",
-          "type": "Single"
+          "type": "Series"
         },
-        "mediaId": 40,
+        "mediaId": 2,
         "premium": false,
         "smallmetaImageUrl": null,
         "status": true,
-        "title": "Neuralink"
+        "title": "Real Paranormal"
+      },
+      {
+        "description": "",
+        "id": 3,
+        "largemetaImageUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+        "media": {
+          "artist": [
+            {
+              "artistId": 0,
+              "artistName": "Nello Originals",
+              "artistType": null,
+              "artistTypeId": 0,
+              "id": 0
+            }
+          ],
+          "coverImage": null,
+          "description": null,
+          "id": 3,
+          "language": {
+            "covermetaImageUrl": null,
+            "id": 0,
+            "status": true,
+            "title": "string"
+          },
+          "metaDescription": "string",
+          "metametaImageUrl": null,
+          "metaTitle": "string",
+          "preference": {
+            "covermetaImageUrl": null,
+            "dateCreated": "2023-08-13T11:05:24.257Z",
+            "dateUpdated": "2023-08-13T11:05:24.257Z",
+            "displayHome": true,
+            "homeSortOrder": 3,
+            "id": 3,
+            "navigationSortOrder": 3,
+            "status": true,
+            "thumbnail": "string",
+            "title": "string"
+          },
+          "premium": false,
+          "status": "Draft",
+          "thumbnail": "string",
+          "title": "string",
+          "type": "Series"
+        },
+        "mediaId": 3,
+        "premium": false,
+        "smallmetaImageUrl": null,
+        "status": true,
+        "title": "copy killer"
       }
       
 ]

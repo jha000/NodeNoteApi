@@ -24,24 +24,25 @@ app.get('/', (req, res) => {
 });
 
 app.get('/recent', (req, res) => {
-  const userToken = req.query.token;
-    // Your token verification logic using userToken...
-    
-    // Fetch and return the recently played media data from your database or source
-    // Your logic to fetch recent media data...
+  const requestedToken = req.query.token; // Assuming you're passing the token as a query parameter
 
-    // Send the fetched data as a response
-    res.status(200).json(recentData);
+  // Find the user with the requested token
+  const user = recentData.find(user => user.token === requestedToken);
+  if (!user) {
+    return res.status(404).json({ message: 'User not found.' });
+  }
+
+  res.status(200).json(user.data);
 });
 
+
+
+
 app.post('/recent', (req, res) => {
-  const userToken = req.query.token;
-  // Your token verification logic using userToken...
-  
-  // Save the received media data to your database or process it as needed
-  const mediaData = req.body;
-  
-  res.status(200).json({ message: 'Media data saved successfully.' });
+  const token = req.body.token;
+  const data = req.body.data;
+
+  res.status(200).json({ message: 'Data saved successfully.' });
 });
 
 
