@@ -34,6 +34,17 @@ app.get('/recent', (req, res) => {
     res.status(200).json(recentData);
 });
 
+app.post('/recent', (req, res) => {
+  const userToken = req.query.token;
+  // Your token verification logic using userToken...
+  
+  // Save the received media data to your database or process it as needed
+  const mediaData = req.body;
+  
+  res.status(200).json({ message: 'Media data saved successfully.' });
+});
+
+
 app.get('/mediaList', (req, res) => {
   const { preference } = req.query;
 
