@@ -23,26 +23,24 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
 
-app.get('/recent', (req, res) => {
-  const requestedToken = req.query.token; // Assuming you're passing the token as a query parameter
+app.post('/data/:userToken', (req, res) => {
+  const { userToken } = req.params;
+  const data = req.body;
 
-  // Find the user with the requested token
-  const user = recentData.find(user => user.token === requestedToken);
-  if (!user) {
-    return res.status(404).json({ message: 'User not found.' });
+  if (!recentData[userToken]) {
+    recentData[userToken] = [];
   }
 
-  res.status(200).json(user.data);
+  recentData[userToken].push(data);
+  res.status(201).json({ message: 'Data added successfully' });
 });
 
+// Get User Data endpoint with user token in the URL
+app.get('/data/:userToken', (req, res) => {
+  const { userToken } = req.params;
+  const userSpecificData = recentData[userToken] || [];
 
-
-
-app.post('/recent', (req, res) => {
-  const token = req.body.token;
-  const data = req.body.data;
-
-  res.status(200).json({ message: 'Data saved successfully.' });
+  res.status(200).json(userSpecificData);
 });
 
 
