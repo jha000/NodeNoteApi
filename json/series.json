@@ -62,5 +62,21 @@
     "premium": false,
     "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
     "type": "Series"
+  },
+  {
+    "artist": "Nello Originals",
+    "duration": "",
+    "id": 5,
+    "language": "English",
+    "like": false,
+    "mediaDescription": "testing",
+    "mediaTitle": "testing",
+    "metaDescription": "",
+    "metaImageUrl": "null",
+    "metaTitle": "",
+    "prefernece": "Horror",
+    "premium": false,
+    "thumbnailUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+    "type": "Series"
   }
 ]
