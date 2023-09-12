@@ -87,14 +87,14 @@
             "thumbnail": "string",
             "title": "string"
           },
-          "premium": false,
+          "premium": true,
           "status": "Draft",
           "thumbnail": "string",
           "title": "string",
           "type": "Series"
         },
         "mediaId": 1,
-        "premium": false,
+        "premium": true,
         "smallmetaImageUrl": null,
         "status": true,
         "title": "Murder in the Lift"
@@ -137,14 +137,14 @@
             "thumbnail": "string",
             "title": "string"
           },
-          "premium": false,
+          "premium": true,
           "status": "Draft",
           "thumbnail": "string",
           "title": "string",
           "type": "Series"
         },
         "mediaId": 2,
-        "premium": false,
+        "premium": true,
         "smallmetaImageUrl": null,
         "status": true,
         "title": "Real Paranormal"
@@ -187,14 +187,14 @@
             "thumbnail": "string",
             "title": "string"
           },
-          "premium": false,
+          "premium": true,
           "status": "Draft",
           "thumbnail": "string",
           "title": "string",
           "type": "Series"
         },
         "mediaId": 3,
-        "premium": false,
+        "premium": true,
         "smallmetaImageUrl": null,
         "status": true,
         "title": "copy killer"
