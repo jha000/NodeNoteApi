@@ -10,7 +10,7 @@
         "mediaId": null,
         "coverImage": null,
         "mediaUrl": "null",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FLockdown%20(1).png?alt=media&token=4c346b1f-2df3-4a87-982b-ab4d5b274fb1"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2FLockdown%20(1).jpg?alt=media&token=a11a3849-965e-4157-a16c-587f8afff9bf"
     },
     {
         "id": 45,
@@ -23,7 +23,7 @@
         "mediaId": null,
         "artist": "Nello Originals",
         "mediaUrl": "null",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FFirst%20%20Love.png?alt=media&token=1c15a411-75ff-4b23-967c-87d6f63ca17b"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2FFirst%20Love.jpg?alt=media&token=0b53f41d-f59a-4e39-9f27-75705a3791b0"
     },
     {
         "id": 44,
@@ -36,7 +36,7 @@
         "coverImage": null,
         "artist": "Nello Originals",
         "mediaUrl": "null",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2FTrapped%20in%20Tizanga.png?alt=media&token=e8f71741-5ae0-429f-a0c6-ece7ee207f64"
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2FTrapped%20in%20Tizanga.png?alt=media&token=753f517c-62ba-409c-8b5b-4c484a133875"
     },
     {
         "id": 40,
@@ -48,7 +48,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "null",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fneuralink.png?alt=media&token=a1576ce5-dd73-4167-9701-e6cf8881169c",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Fneuralink.jpg?alt=media&token=8f9e983c-b2f4-489e-ba68-622fda46254b",
         "artist": "Nello Originals"
     },
     {
@@ -61,7 +61,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FGame%20of%20Cure-Exit%2FGame%20of%20Cure%20Ep%2001.mp3?alt=media&token=7e7c2353-d490-4a16-80ad-398ae8c56b08",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fthe%20game%20of%20cure.jpg?alt=media&token=bfcac22a-7505-4ea8-8d58-a584f9b2d6db",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Fthe%20game%20of%20cure.jpg?alt=media&token=5c440c8d-ae83-4663-86cd-128977583cf0",
         "artist": "Nello Originals"
     },
     {
@@ -74,7 +74,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FThe%20Copy%20Killer%2FThe%20Copy%20Killer%20EP%2001.mp3?alt=media&token=58025ad9-a21f-4a14-a6e4-b85a6da1a283",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fcopy%20killer.png?alt=media&token=98060582-d37d-447b-a375-39fcf2267ac0",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Fcopy%20killer.jpg?alt=media&token=6d87b488-aa27-4d25-ab69-d91c181ab771",
         "artist": "Nello Originals"
     },
     {
@@ -87,7 +87,7 @@
         "duration": "168",
         "coverImage": null,
         "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FMurder%20in%20the%20Lift%2FMurder%20in%20the%20Lift%20EP%2001.mp3?alt=media&token=c89307a4-5250-4578-872a-0a2b4bfb4dcc",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fmurder%20in%20the%20lift%20final.png?alt=media&token=1bf21397-c871-4591-9977-d9fe463e5cdd",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Fmurder%20in%20the%20lift%20final.jpg?alt=media&token=0217bd65-dc3c-431b-9871-f08514952d0a",
         "artist": "Nello Originals"
     },
     {
@@ -100,7 +100,7 @@
         "coverImage": null,
         "mediaId": null,
         "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Audio%2FReal%20Paranormal%20Stories%2FReal%20Paranormal%20Stories%20Ep%2001.mp3?alt=media&token=8b199cfd-9464-4109-ad98-8ecabfbe21c1",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Freal%20paranormal.png?alt=media&token=0f31cad3-f3e6-4f54-988b-177b6bf37fcc",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Freal%20paranormal.jpg?alt=media&token=abecd9d7-500a-4589-973a-0c73d3943a4d",
         "artist": "Nello Originals"
     },
     {
@@ -113,7 +113,7 @@
         "coverImage": null,
         "duration": "168",
         "mediaUrl": "null",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/Story%20Posters%2Fzombai.png?alt=media&token=2ce3e521-a4e1-4873-9faf-3e3a9a0ec6de",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/resizePosters%2Fzombai.jpg?alt=media&token=137c1ff2-40f9-4528-9e3b-e100f8c559b7",
         "artist": "Nello Originals"
     }
 ]
