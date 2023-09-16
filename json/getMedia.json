@@ -33,7 +33,7 @@
         },
         "artist": {
             "id": 1,
-            "artistName": "Nello Originals",
+            "artistName": "Nodenote Originals",
             "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
         },
         "premium": true,
@@ -77,7 +77,7 @@
         },
         "artist": {
             "id": 1,
-            "artistName": "Nello Originals",
+            "artistName": "Nodenote Originals",
             "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
         },
         "premium": true,
@@ -121,7 +121,7 @@
         },
         "artist": {
             "id": 1,
-            "artistName": "Nello Originals",
+            "artistName": "Nodenote Originals",
             "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
         },
         "premium": true,
@@ -165,7 +165,7 @@
         },
         "artist": {
             "id": 1,
-            "artistName": "Nello Originals",
+            "artistName": "Nodenote Originals",
             "image": "https://s3.ap-south-1.amazonaws.com/audiomonkhub/artist/icon-512x512px.png"
         },
         "premium": true,
