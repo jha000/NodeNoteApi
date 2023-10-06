@@ -7,16 +7,16 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-const listData = require('./json/mediaList.json');
-const seriesData = require('./json/series.json');
-const categoriesData = require('./json/categories.json');
-const episodesData = require('./json/episodes.json');
-const sliderData = require('./json/slider.json');
-const activeData = require('./json/seasonActiveList.json');
-const mediaData = require('./json/getMedia.json');
-const musicSeriesData = require('./json/musicSeries.json');
-const musicSingleData = require('./json/musicSingle.json');
-const recentData = require('./json/recent.json');
+// const listData = require('./json/mediaList.json');
+// const seriesData = require('./json/series.json');
+// const categoriesData = require('./json/categories.json');
+// const episodesData = require('./json/episodes.json');
+// const sliderData = require('./json/slider.json');
+// const activeData = require('./json/seasonActiveList.json');
+// const mediaData = require('./json/getMedia.json');
+// const musicSeriesData = require('./json/musicSeries.json');
+// const musicSingleData = require('./json/musicSingle.json');
+// const recentData = require('./json/recent.json');
 
 
 app.get('/', (req, res) => {
