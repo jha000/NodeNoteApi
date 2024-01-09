@@ -1,59 +1,62 @@
 const express = require('express');
 const cors = require('cors');
-const mysql = require('mysql');
+// const mysql = require('mysql');
 const app = express();
 
 
 const PORT = process.env.PORT || 3000;
 
-// MySQL Database Configuration
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Abhi@15012002',
-  database: 'dig_lib',
-});
+// // MySQL Database Configuration
+// const db = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: 'Abhi@15012002',
+//   database: 'dig_lib',
+// });
 
-// Connect to MySQL
-db.connect(err => {
-  if (err) {
-    console.error('MySQL connection failed:', err);
-  } else {
-    console.log('Connected to MySQL database');
-  }
-});
+// // Connect to MySQL
+// db.connect(err => {
+//   if (err) {
+//     console.error('MySQL connection failed:', err);
+//   } else {
+//     console.log('Connected to MySQL database');
+//   }
+// });
 
 app.use(cors());
 app.use(express.json());
 
-// API Endpoint to Retrieve Catalogues
-app.get('/get_catalogues', (req, res) => {
-  const sql = 'SELECT catalogue_id, catalogue_name FROM catalogue';
+// // API Endpoint to Retrieve Catalogues
+// app.get('/get_catalogues', (req, res) => {
+//   const sql = 'SELECT catalogue_id, catalogue_name FROM catalogue';
 
-  // Query the database
-  db.query(sql, (err, result) => {
-    if (err) {
-      console.error('Error executing MySQL query:', err);
-      res.status(500).send('Internal Server Error');
-    } else {
-      res.json(result);
-    }
-  });
-});
+//   // Query the database
+//   db.query(sql, (err, result) => {
+//     if (err) {
+//       console.error('Error executing MySQL query:', err);
+//       res.status(500).send('Internal Server Error');
+//     } else {
+//       res.json(result);
+//     }
+//   });
+// });
 
-// Endpoint to retrieve books
-app.get('/books', (req, res) => {
-  const booksQuery = 'SELECT title, author, description, subject, publisher, total_pages, publication_year, category_id FROM books';
+// // Endpoint to retrieve books
+// app.get('/books', (req, res) => {
+//   const booksQuery = 'SELECT title, author, description, subject, publisher, total_pages, publication_year, category_id FROM books';
 
-  db.query(booksQuery, (booksErr, booksResult) => {
-    if (booksErr) {
-      console.error('Error executing books query:', booksErr);
-      res.status(500).json({ error: 'Internal Server Error' });
-    } else {
-      res.json(booksResult);
-    }
-  });
-});
+//   db.query(booksQuery, (booksErr, booksResult) => {
+//     if (booksErr) {
+//       console.error('Error executing books query:', booksErr);
+//       res.status(500).json({ error: 'Internal Server Error' });
+//     } else {
+//       res.json(booksResult);
+//     }
+//   });
+// });
+
+const booksData = require('./json/books.json');
+const catalogueData = require('./json/catalogue.json');
 
 const listData = require('./json/mediaList.json');
 const seriesData = require('./json/series.json');
@@ -66,6 +69,13 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
+app.get('/books', (req, res) => {
+  res.send(booksData);
+});
+
+app.get('/catalogue', (req, res) => {
+  res.send(catalogueData);
+});
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');

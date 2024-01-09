@@ -1,0 +1,62 @@
+[
+	{
+		"catalogue_id" : 1,
+		"catalogue_name" : "Administration"
+	},
+	{
+		"catalogue_id" : 2,
+		"catalogue_name" : "Agriculture"
+	},
+	{
+		"catalogue_id" : 3,
+		"catalogue_name" : "Archaeology"
+	},
+	{
+		"catalogue_id" : 4,
+		"catalogue_name" : "Census"
+	},
+	{
+		"catalogue_id" : 5,
+		"catalogue_name" : "Civil service"
+	},
+	{
+		"catalogue_id" : 6,
+		"catalogue_name" : "Education"
+	},
+	{
+		"catalogue_id" : 7,
+		"catalogue_name" : "Emigration"
+	},
+	{
+		"catalogue_id" : 8,
+		"catalogue_name" : "Finance"
+	},
+	{
+		"catalogue_id" : 9,
+		"catalogue_name" : "Forests"
+	},
+	{
+		"catalogue_id" : 10,
+		"catalogue_name" : "Gazetteers and Handbooks"
+	},
+	{
+		"catalogue_id" : 11,
+		"catalogue_name" : "History"
+	},
+	{
+		"catalogue_id" : 12,
+		"catalogue_name" : "Judicial Administration"
+	},
+	{
+		"catalogue_id" : 13,
+		"catalogue_name" : "Law and Legislation"
+	},
+	{
+		"catalogue_id" : 14,
+		"catalogue_name" : "Language and Literature"
+	},
+	{
+		"catalogue_id" : 15,
+		"catalogue_name" : "Marine"
+	}
+]
