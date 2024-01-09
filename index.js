@@ -70,11 +70,11 @@ const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
 app.get('/books', (req, res) => {
-  res.send(booksData);
+  res.json(booksData);
 });
 
 app.get('/catalogue', (req, res) => {
-  res.send(catalogueData);
+  res.json(catalogueData);
 });
 
 app.get('/', (req, res) => {
