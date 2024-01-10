@@ -5,11 +5,12 @@
 		"author" : "Kinney, Alexander P.",
 		"description" : "This book provides information about sequester the estates of deceased person, allow and reject accounts, reserve power to grant probate when an executor appeared after latters of administration had been granted etc.",
 		"subject" : "Social Sciences - Law",
-		"publisher" : "http://wbsl.gov.in/bookReader.action?bookId=9803#page/1/mode/1up",
+		"publisher" : "Thacker, Spink, Calcutta",
 		"total_pages" : 88,
 		"publication_year" : "1907",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAdministration%20Practice%20In%20India.png?alt=media&token=670e1a79-a4fd-484b-8216-c658c59435e2",
-		"category_id" : 1
+		"category_id" : 1,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=17271#page/1/mode/1up"
 	},
 	{
 		"id" : 2,
@@ -21,7 +22,8 @@
 		"total_pages" : 74,
 		"publication_year" : "1979",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAdministration%20Report.png?alt=media&token=252f0136-7bc0-4793-a225-afd1ca851a04",
-		"category_id" : 1
+		"category_id" : 1,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=16725#page/1/mode/1up"
 	},
 	{
 		"id" : 3,
@@ -33,7 +35,8 @@
 		"total_pages" : 83,
 		"publication_year" : "1885",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAn%20Historical%20Account.png?alt=media&token=588972a9-cd5e-4a0c-a6fd-59747416673b",
-		"category_id" : 1
+		"category_id" : 1,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=29094#page/1/mode/1up"
 	},
 	{
 		"id" : 4,
@@ -45,7 +48,8 @@
 		"total_pages" : 112,
 		"publication_year" : "1942",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAgricultural%20Statistics.png?alt=media&token=05d328cb-f7e5-444e-b2e9-fecc2c1058b1",
-		"category_id" : 2
+		"category_id" : 2,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=8695#page/1/mode/1up"
 	},
 	{
 		"id" : 5,
@@ -57,7 +61,8 @@
 		"total_pages" : 34,
 		"publication_year" : "1926",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FBengal%20Act.png?alt=media&token=996e6946-9718-457b-a4b8-57376a890933",
-		"category_id" : 2
+		"category_id" : 2,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=17548#page/1/mode/1up"
 	},
 	{
 		"id" : 6,
@@ -69,7 +74,8 @@
 		"total_pages" : 99,
 		"publication_year" : "N.A.",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FA%20Note.png?alt=media&token=e7fd10e9-4aba-45e6-82c1-51544050172a",
-		"category_id" : 3
+		"category_id" : 3,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=17548#page/1/mode/1up"
 	},
 	{
 		"id" : 7,
@@ -81,7 +87,8 @@
 		"total_pages" : 54,
 		"publication_year" : "1883",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAncient%20Inscriptions.png?alt=media&token=f23ef47a-2e39-4d95-af59-e6e021aafd8a",
-		"category_id" : 3
+		"category_id" : 3,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=21311#page/1/mode/1up"
 	},
 	{
 		"id" : 8,
@@ -93,7 +100,8 @@
 		"total_pages" : 25,
 		"publication_year" : "1905",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FAnnual%20Report%20.png?alt=media&token=b8124bce-69b1-4cc5-a72c-b86dbb596304",
-		"category_id" : 3
+		"category_id" : 3,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=21265#page/1/mode/1up"
 	},
 	{
 		"id" : 9,
@@ -105,7 +113,8 @@
 		"total_pages" : 494,
 		"publication_year" : "1875",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FCensus%20Of%20The%20Bombay.png?alt=media&token=b59455f0-6c9a-4215-b4ab-f142e452d89a",
-		"category_id" : 4
+		"category_id" : 4,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=9070#page/1/mode/1up"
 	},
 	{
 		"id" : 10,
@@ -117,7 +126,8 @@
 		"total_pages" : 272,
 		"publication_year" : "1882",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FImperial%20Census.png?alt=media&token=f0481dab-d85a-4c37-ade0-dc07d1461393",
-		"category_id" : 4
+		"category_id" : 4,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=9142#page/1/mode/1up"
 	},
 	{
 		"id" : 11,
@@ -129,7 +139,8 @@
 		"total_pages" : 570,
 		"publication_year" : "1977",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FBahri's%20Guide.png?alt=media&token=140dd413-e0a5-4029-a7e2-7f38c7056914",
-		"category_id" : 5
+		"category_id" : 5,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=21226#page/1/mode/1up"
 	},
 	{
 		"id" : 12,
@@ -141,6 +152,7 @@
 		"total_pages" : 1220,
 		"publication_year" : "1900",
 		"media" : "https://firebasestorage.googleapis.com/v0/b/nodenote-63309.appspot.com/o/dig_lib%2FHistory%20Of%20Services.png?alt=media&token=373b3de4-f75d-4c03-9f64-a38372b4e357",
-		"category_id" : 5
+		"category_id" : 5,
+		"link" : "http://wbsl.gov.in/bookReader.action?bookId=21293#page/1/mode/1up"
 	}
 ]
