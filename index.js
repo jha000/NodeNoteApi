@@ -77,6 +77,19 @@ app.get('/catalogue', (req, res) => {
   res.json(catalogueData);
 });
 
+// Endpoint for searching books by title
+app.get('/books/search', (req, res) => {
+  const queryTitle = req.query.title;
+
+  if (!queryTitle) {
+    return res.status(400).json({ error: 'Title query parameter is required' });
+  }
+
+  const matchingBooks = booksData.filter(book => book.title.toLowerCase().includes(queryTitle.toLowerCase()));
+
+  res.json(matchingBooks);
+});
+
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
