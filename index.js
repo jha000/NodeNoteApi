@@ -57,6 +57,7 @@ app.use(express.json());
 
 const booksData = require('./json/books.json');
 const catalogueData = require('./json/catalogue.json');
+const categoryData = require('./json/category.json');
 
 const listData = require('./json/mediaList.json');
 const seriesData = require('./json/series.json');
@@ -75,6 +76,10 @@ app.get('/books', (req, res) => {
 
 app.get('/catalogue', (req, res) => {
   res.json(catalogueData);
+});
+
+app.get('/category', (req, res) => {
+  res.json(categoryData);
 });
 
 // Endpoint for searching books by title
