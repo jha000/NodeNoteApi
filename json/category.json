@@ -1,13 +1,8 @@
 [
-	{
-		"catalogue_id" : 0,
-		"catalogue_name" : "All",
-		"media_name" : "All"
-	},
     {
 		"catalogue_id" : 1,
 		"catalogue_name" : "Administration",
-		"media_name" : "https://img.freepik.com/free-photo/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-concept_1423-126.jpg?size=626&ext=jpg&ga=GA1.1.2005093095.1705035337&semt=sph"
+		"media_link" : "https://img.freepik.com/free-photo/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-concept_1423-126.jpg?size=626&ext=jpg&ga=GA1.1.2005093095.1705035337&semt=sph"
 	},
 	{
 		"catalogue_id" : 2,
