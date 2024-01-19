@@ -23,8 +23,21 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
+const stateData = require('./json/state.json');
+const districtData = require('./json/district.json');
+const libraryData = require('./json/libraries.json');
 
+app.get('/getState', (req, res) => {
+  res.json(stateData);
+});
 
+app.get('/getDistrict', (req, res) => {
+  res.json(districtData);
+});
+
+app.get('/getLibrary', (req, res) => {
+  res.json(libraryData);
+});
 
 app.get('/books', (req, res) => {
   res.json(booksData);
