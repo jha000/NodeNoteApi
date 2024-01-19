@@ -2,110 +2,11 @@ const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql');
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-
-// Create MySQL connection
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Abhi@15012002',
-  database: 'rrrlfdb',
-});
-
-// Connect to MySQL
-db.connect(err => {
-  if (err) {
-    console.error('MySQL connection error:', err);
-  } else {
-    console.log('Connected to MySQL database');
-  }
-});
-
-// Define a simple endpoint
-app.get('/getAll', (req, res) => {
-  if (db.state === 'authenticated') {
-    db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  } else {
-    console.error('MySQL connection not in a valid state.');
-    res.status(500).json({ error: 'Internal Server Error' });
-  }
-});
-
-app.get('/getState', (req, res) => {
-  db.query('SELECT * FROM m_state', (err, results) => {
-    if (err) {
-      console.error('MySQL query error:', err);
-      res.status(500).json({ error: 'Internal Server Error' });
-    } else {
-      res.json(results);
-    }
-  });
-});
-
-app.get('/getDistrict', (req, res) => {
-    db.query('SELECT * FROM m_district', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  });  
-
-app.get('/getLibraries', (req, res) => {
-    db.query('SELECT * FROM m_libraries', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  });  
-
-app.get('/getItems', (req, res) => {
-    db.query('SELECT * FROM m_item', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  });
-
-app.get('/getScheme', (req, res) => {
-    db.query('SELECT * FROM m_scheme', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  });  
-
-app.get('/getSchemeId', (req, res) => {
-    db.query('SELECT * FROM m_scheme_application_id', (err, results) => {
-      if (err) {
-        console.error('MySQL query error:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
-      } else {
-        res.json(results);
-      }
-    });
-  });
 
 const booksData = require('./json/books.json');
 const catalogueData = require('./json/catalogue.json');
@@ -122,21 +23,6 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
-const stateData = require('./json/state.json');
-const districtData = require('./json/district.json');
-const libraryData = require('./json/libraries.json');
-
-app.get('/getState', (req, res) => {
-  res.json(stateData);
-});
-
-app.get('/getDistrict', (req, res) => {
-  res.json(districtData);
-});
-
-app.get('/getLibrary', (req, res) => {
-  res.json(libraryData);
-});
 
 app.get('/books', (req, res) => {
   res.json(booksData);
@@ -344,6 +230,6 @@ app.get('/mediaData', (req, res) => {
 });
 
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
