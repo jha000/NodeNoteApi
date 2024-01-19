@@ -26,14 +26,19 @@ db.connect(err => {
 
 // Define a simple endpoint
 app.get('/getAll', (req, res) => {
-  db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
-    if (err) {
-      console.error('MySQL query error:', err);
-      res.status(500).json({ error: 'Internal Server Error' });
-    } else {
-      res.json(results);
-    }
-  });
+  if (db.state === 'authenticated') {
+    db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
+      if (err) {
+        console.error('MySQL query error:', err);
+        res.status(500).json({ error: 'Internal Server Error' });
+      } else {
+        res.json(results);
+      }
+    });
+  } else {
+    console.error('MySQL connection not in a valid state.');
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 app.get('/getState', (req, res) => {
