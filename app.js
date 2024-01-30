@@ -4,6 +4,9 @@ const mysql = require('mysql');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Specify the IP address of your testing device
+// const allowedIPAddress = '10.240.12.176'; 
+
 app.use(cors());
 app.use(express.json());
 
@@ -25,9 +28,33 @@ db.connect(err => {
   }
 });
 
+// Middleware to check the client's IP address
+// const checkIPAddress = (req, res, next) => {
+//   const clientIPAddress = req.ip || req.connection.remoteAddress;
+//   if (clientIPAddress === allowedIPAddress) {
+//     next(); // Allow the request to proceed
+//   } else {
+//     res.status(403).json({ error: 'Access Forbidden' });
+//   }
+// };
+
+// Apply the middleware to all routes
+// app.use(checkIPAddress);
+
 // Define a simple endpoint
 app.get('/getAll', (req, res) => {
   db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+app.get('/getBeneficiary', (req, res) => {
+  db.query('SELECT * FROM m_beneficiary_registration', (err, results) => {
     if (err) {
       console.error('MySQL query error:', err);
       res.status(500).json({ error: 'Internal Server Error' });

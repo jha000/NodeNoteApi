@@ -12,6 +12,9 @@ const booksData = require('./json/books.json');
 const catalogueData = require('./json/catalogue.json');
 const categoryData = require('./json/category.json');
 
+const stateData = require('./json/state.json');
+const districtData = require('./json/district.json');
+
 const listData = require('./json/mediaList.json');
 const seriesData = require('./json/series.json');
 const categoriesData = require('./json/categories.json');
@@ -23,6 +26,14 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
+
+app.get('/state', (req, res) => {
+  res.json(booksData);
+});
+
+app.get('/district', (req, res) => {
+  res.json(catalogueData);
+});
 
 app.get('/books', (req, res) => {
   res.json(booksData);
