@@ -14,6 +14,8 @@ const categoryData = require('./json/category.json');
 
 const stateData = require('./json/state.json');
 const districtData = require('./json/district.json');
+const beneficiaryData = require('./json/beneficiary.json');
+const schemeData = require('./json/scheme.json');
 
 const listData = require('./json/mediaList.json');
 const seriesData = require('./json/series.json');
@@ -34,6 +36,16 @@ app.get('/state', (req, res) => {
 app.get('/district', (req, res) => {
   res.json(districtData);
 });
+
+app.get('/beneficiary', (req, res) => {
+  res.json(beneficiaryData);
+});
+
+app.get('/scheme', (req, res) => {
+  res.json(schemeData);
+});
+
+
 
 app.get('/books', (req, res) => {
   res.json(booksData);
