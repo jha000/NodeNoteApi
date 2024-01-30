@@ -28,11 +28,11 @@ const recentData = require('./json/recent.json');
 
 
 app.get('/state', (req, res) => {
-  res.json(booksData);
+  res.json(stateData);
 });
 
 app.get('/district', (req, res) => {
-  res.json(catalogueData);
+  res.json(districtData);
 });
 
 app.get('/books', (req, res) => {
