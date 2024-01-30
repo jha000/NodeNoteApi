@@ -12,6 +12,7 @@ const booksData = require('./json/books.json');
 const catalogueData = require('./json/catalogue.json');
 const categoryData = require('./json/category.json');
 
+const allData = require('./json/all.json');
 const stateData = require('./json/state.json');
 const districtData = require('./json/district.json');
 const beneficiaryData = require('./json/beneficiary.json');
@@ -35,6 +36,10 @@ app.get('/state', (req, res) => {
 
 app.get('/district', (req, res) => {
   res.json(districtData);
+});
+
+app.get('/all', (req, res) => {
+  res.json(allData);
 });
 
 app.get('/beneficiary', (req, res) => {
