@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const mysql = require('mysql');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
@@ -29,7 +28,7 @@ const musicSeriesData = require('./json/musicSeries.json');
 const musicSingleData = require('./json/musicSingle.json');
 const recentData = require('./json/recent.json');
 
-
+// endpoints of rrrlf app
 app.get('/state', (req, res) => {
   res.json(stateData);
 });
@@ -50,8 +49,7 @@ app.get('/scheme', (req, res) => {
   res.json(schemeData);
 });
 
-
-
+//endpoints of digital library app
 app.get('/books', (req, res) => {
   res.json(booksData);
 });
@@ -77,6 +75,8 @@ app.get('/books/search', (req, res) => {
   res.json(matchingBooks);
 });
 
+
+// nodenote api
 app.get('/', (req, res) => {
   res.send('Welcome to the Audio Content Platform API');
 });
@@ -112,6 +112,7 @@ app.get('/mediaList', (req, res) => {
     res.json(listData);
   }
 });
+
 
 app.get('/search', (req, res) => {
   const query = req.query.q;

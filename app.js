@@ -2,10 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql');
 const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Specify the IP address of your testing device
-// const allowedIPAddress = '10.240.12.176'; 
+const PORT = process.env.PORT || 3000; 
 
 app.use(cors());
 app.use(express.json());
@@ -27,19 +24,6 @@ db.connect(err => {
     console.log('Connected to MySQL database');
   }
 });
-
-// Middleware to check the client's IP address
-// const checkIPAddress = (req, res, next) => {
-//   const clientIPAddress = req.ip || req.connection.remoteAddress;
-//   if (clientIPAddress === allowedIPAddress) {
-//     next(); // Allow the request to proceed
-//   } else {
-//     res.status(403).json({ error: 'Access Forbidden' });
-//   }
-// };
-
-// Apply the middleware to all routes
-// app.use(checkIPAddress);
 
 // Define a simple endpoint
 app.get('/getAll', (req, res) => {
