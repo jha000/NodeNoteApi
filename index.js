@@ -1,11 +1,41 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-
+const mysql = require('mysql');
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
+
+// Create MySQL connection
+const db = mysql.createConnection({
+  host: 'localhost',
+  port: 3306,
+  user: 'root',
+  password: 'Abhi@15012002',
+  database: 'rrrlfdb',
+});
+
+// Connect to MySQL
+db.connect(err => {
+  if (err) {
+    console.error('MySQL connection error:', err);
+  } else {
+    console.log('Connected to MySQL database');
+  }
+});
+
+// Define a simple endpoint
+app.get('/testing', (req, res) => {
+  db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json(results);
+    }
+  });
+});
 
 const booksData = require('./json/books.json');
 const catalogueData = require('./json/catalogue.json');
