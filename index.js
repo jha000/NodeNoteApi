@@ -25,34 +25,58 @@ db.connect(err => {
   }
 });
 
-// Define a simple endpoint
 app.get('/getAll', (req, res) => {
-  db.query('SELECT * FROM m_allscheme_consolidated_data', (results) => {
+  db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
       res.json(results);
-  });
-});
-
-app.get('/getBeneficiary', (req, res) => {
-  db.query('SELECT * FROM m_beneficiary_registration', (results) => {
-      res.json(results);
-  });
-});
-
-app.get('/getScheme', (req, res) => {
-  db.query('SELECT * FROM m_scheme', (results) => {
-      res.json(results);
-  });
-});
-
-app.get('/getDistrict', (req, res) => {
-  db.query('SELECT * FROM m_district', (results) => {
-      res.json(results);
+    }
   });
 });
 
 app.get('/getState', (req, res) => {
-  db.query('SELECT * FROM m_state', (results) => {
+  db.query('SELECT * FROM m_state', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
       res.json(results);
+    }
+  });
+});
+
+app.get('/getDistrict', (req, res) => {
+  db.query('SELECT * FROM m_district', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+app.get('/getScheme', (req, res) => {
+  db.query('SELECT * FROM m_scheme', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+app.get('/getBeneficiary', (req, res) => {
+  db.query('SELECT * FROM m_beneficiary_registration', (err, results) => {
+    if (err) {
+      console.error('MySQL query error:', err);
+      res.status(500).json({ error: 'Internal Server Error' });
+    } else {
+      res.json(results);
+    }
   });
 });
 
