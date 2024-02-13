@@ -9,11 +9,11 @@ app.use(express.json());
 
 // Create MySQL connection
 const db = mysql.createConnection({
-  host: 'sql6.freemysqlhosting.net',
+  host: 'localhost',
   port: 3306,
-  user: 'sql6683770',
-  password: 'WErHwnavBM',
-  database: 'sql6683770',
+  user: 'root',
+  password: 'Abhi@15012002',
+  database: 'rrrlfdb',
 });
 
 // Connect to MySQL
@@ -26,14 +26,33 @@ db.connect(err => {
 });
 
 // Define a simple endpoint
-app.get('/testing', (req, res) => {
-  db.query('SELECT * FROM m_allscheme_consolidated_data', (err, results) => {
-    if (err) {
-      console.error('MySQL query error:', err);
-      res.status(500).json({ error: 'Internal Server Error' });
-    } else {
+app.get('/getAll', (req, res) => {
+  db.query('SELECT * FROM m_allscheme_consolidated_data', (results) => {
       res.json(results);
-    }
+  });
+});
+
+app.get('/getBeneficiary', (req, res) => {
+  db.query('SELECT * FROM m_beneficiary_registration', (results) => {
+      res.json(results);
+  });
+});
+
+app.get('/getScheme', (req, res) => {
+  db.query('SELECT * FROM m_scheme', (results) => {
+      res.json(results);
+  });
+});
+
+app.get('/getDistrict', (req, res) => {
+  db.query('SELECT * FROM m_district', (results) => {
+      res.json(results);
+  });
+});
+
+app.get('/getState', (req, res) => {
+  db.query('SELECT * FROM m_state', (results) => {
+      res.json(results);
   });
 });
 
