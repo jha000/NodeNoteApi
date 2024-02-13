@@ -9,11 +9,11 @@ app.use(express.json());
 
 // Create MySQL connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'sql6.freemysqlhosting.net',
   port: 3306,
-  user: 'root',
-  password: 'Abhi@15012002',
-  database: 'rrrlfdb',
+  user: 'sql6683770',
+  password: 'WErHwnavBM',
+  database: 'sql6683770',
 });
 
 // Connect to MySQL
